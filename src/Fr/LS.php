@@ -503,7 +503,7 @@ HTML;
                  * Remember Me cookie is present. Decrypt its value
                  * to get the user ID who needs to be remembered
                  */
-                $rememberMeParts = explode(':|:', urldecode($rememberMe));
+                $rememberMeParts = explode(':|:', $rememberMe);
 
                 if (count($rememberMeParts) !== 2) {
                     $this->logout();
