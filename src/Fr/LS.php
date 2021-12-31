@@ -450,7 +450,6 @@ HTML;
                     $this->config['db']['username'],
                     $this->config['db']['password'],
                     array(
-                        PDO::ATTR_PERSISTENT        => true,
                         PDO::ATTR_ERRMODE           => PDO::ERRMODE_EXCEPTION,
                         PDO::ATTR_STRINGIFY_FETCHES => true,
                     )
@@ -468,7 +467,6 @@ HTML;
                     $this->config['db']['username'],
                     $this->config['db']['password'],
                     array(
-                        PDO::ATTR_PERSISTENT        => true,
                         PDO::ATTR_ERRMODE           => PDO::ERRMODE_EXCEPTION,
                         PDO::ATTR_STRINGIFY_FETCHES => true,
                     )
@@ -482,7 +480,6 @@ HTML;
                     $this->config['db']['username'],
                     $this->config['db']['password'],
                     array(
-                        PDO::ATTR_PERSISTENT        => true,
                         PDO::ATTR_ERRMODE           => PDO::ERRMODE_EXCEPTION,
                         PDO::ATTR_STRINGIFY_FETCHES => true,
                     ));
